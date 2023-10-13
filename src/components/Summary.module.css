@@ -1,0 +1,26 @@
+
+.content_element{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.result_title{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.result_title > img{
+    margin-right: .4rem;
+}
+.result_title > h3{
+    /* color: hsl(0, 100%, 67%); */
+    font-size: .8rem;
+}
+.result_amount{
+    color: hsl(221, 100%, 96%);
+}
+.result_amount > span{
+    font-weight: bold;
+    color: hsl(224, 30%, 27%);
+    padding-right: .2rem;
+}
